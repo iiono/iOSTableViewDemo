@@ -8,12 +8,12 @@
 
 #import "DemoAppDelegate.h"
 
-#import "DemoViewController.h"
+#import "SimpleDemoViewController.h"
 
 @implementation DemoAppDelegate
 
 @synthesize window = _window;
-@synthesize demoView = _demoView;
+@synthesize simpleDemoView = _demoView;
 
 - (void)dealloc
 {
@@ -26,9 +26,21 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.demoView = [DemoViewController alloc];
-    self.demoView = [[[DemoViewController alloc] initWithNibName:@"DemoViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.demoView;
+    
+    NSInteger demoToRun = 2;
+    
+    switch (demoToRun) {
+        case 1:
+            self.simpleDemoView = [[[SimpleDemoViewController alloc] initWithNibName:@"SimpleDemoViewController" bundle:nil] autorelease];
+            self.window.rootViewController = self.simpleDemoView;
+            break;
+            
+        default:
+            break;
+    }
+//    self.demoView = [SimpleDemoViewController alloc];
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

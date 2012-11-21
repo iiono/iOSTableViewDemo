@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class DemoViewController;
+@class SimpleDemoViewController;
 
 @interface DemoAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) DemoViewController *demoView;
+@property (strong, nonatomic) SimpleDemoViewController *simpleDemoView;
 
 @end
