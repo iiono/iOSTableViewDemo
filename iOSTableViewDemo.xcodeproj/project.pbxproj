@@ -19,14 +19,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		760370C8165A088A003C1F08 /* DemonstrationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemonstrationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		760370C8165A088A003C1F08 /* iOSTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		760370CC165A088A003C1F08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		760370CE165A088A003C1F08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		760370D0165A088A003C1F08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		760370D4165A088A003C1F08 /* DemonstrationApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemonstrationApp-Info.plist"; sourceTree = "<group>"; };
+		760370D4165A088A003C1F08 /* iOSTableViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSTableViewDemo-Info.plist"; sourceTree = "<group>"; };
 		760370D6165A088A003C1F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		760370D8165A088A003C1F08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		760370DA165A088A003C1F08 /* DemonstrationApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemonstrationApp-Prefix.pch"; sourceTree = "<group>"; };
+		760370DA165A088A003C1F08 /* iOSTableViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSTableViewDemo-Prefix.pch"; sourceTree = "<group>"; };
 		760370DB165A088A003C1F08 /* DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
 		760370DC165A088A003C1F08 /* DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
 		760370DE165A088A003C1F08 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		760370BD165A088A003C1F08 = {
 			isa = PBXGroup;
 			children = (
-				760370D2165A088A003C1F08 /* DemonstrationApp */,
+				760370D2165A088A003C1F08 /* Classes */,
 				760370CB165A088A003C1F08 /* Frameworks */,
 				760370C9165A088A003C1F08 /* Products */,
 			);
@@ -62,7 +62,7 @@
 		760370C9165A088A003C1F08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				760370C8165A088A003C1F08 /* DemonstrationApp.app */,
+				760370C8165A088A003C1F08 /* iOSTableViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,7 +77,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		760370D2165A088A003C1F08 /* DemonstrationApp */ = {
+		760370D2165A088A003C1F08 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				760370EC165AC359003C1F08 /* ListObject.h */,
@@ -89,16 +89,17 @@
 				760370E1165A088A003C1F08 /* DemoViewController.xib */,
 				760370D3165A088A003C1F08 /* Supporting Files */,
 			);
+			name = Classes;
 			path = DemonstrationApp;
 			sourceTree = "<group>";
 		};
 		760370D3165A088A003C1F08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				760370D4165A088A003C1F08 /* DemonstrationApp-Info.plist */,
+				760370D4165A088A003C1F08 /* iOSTableViewDemo-Info.plist */,
 				760370D5165A088A003C1F08 /* InfoPlist.strings */,
 				760370D8165A088A003C1F08 /* main.m */,
-				760370DA165A088A003C1F08 /* DemonstrationApp-Prefix.pch */,
+				760370DA165A088A003C1F08 /* iOSTableViewDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -106,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		760370C7165A088A003C1F08 /* DemonstrationApp */ = {
+		760370C7165A088A003C1F08 /* iOSTableViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 760370E6165A088A003C1F08 /* Build configuration list for PBXNativeTarget "DemonstrationApp" */;
+			buildConfigurationList = 760370E6165A088A003C1F08 /* Build configuration list for PBXNativeTarget "iOSTableViewDemo" */;
 			buildPhases = (
 				760370C4165A088A003C1F08 /* Sources */,
 				760370C5165A088A003C1F08 /* Frameworks */,
@@ -118,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = DemonstrationApp;
+			name = iOSTableViewDemo;
 			productName = DemonstrationApp;
-			productReference = 760370C8165A088A003C1F08 /* DemonstrationApp.app */;
+			productReference = 760370C8165A088A003C1F08 /* iOSTableViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +133,7 @@
 				CLASSPREFIX = Demo;
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 760370C2165A088A003C1F08 /* Build configuration list for PBXProject "DemonstrationApp" */;
+			buildConfigurationList = 760370C2165A088A003C1F08 /* Build configuration list for PBXProject "iOSTableViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -144,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				760370C7165A088A003C1F08 /* DemonstrationApp */,
+				760370C7165A088A003C1F08 /* iOSTableViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -242,9 +243,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DemonstrationApp/DemonstrationApp-Prefix.pch";
-				INFOPLIST_FILE = "DemonstrationApp/DemonstrationApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DemonstrationApp/iOSTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "DemonstrationApp/iOSTableViewDemo-Info.plist";
+				PRODUCT_NAME = iOSTableViewDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -253,9 +254,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DemonstrationApp/DemonstrationApp-Prefix.pch";
-				INFOPLIST_FILE = "DemonstrationApp/DemonstrationApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DemonstrationApp/iOSTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "DemonstrationApp/iOSTableViewDemo-Info.plist";
+				PRODUCT_NAME = iOSTableViewDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -263,7 +264,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		760370C2165A088A003C1F08 /* Build configuration list for PBXProject "DemonstrationApp" */ = {
+		760370C2165A088A003C1F08 /* Build configuration list for PBXProject "iOSTableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				760370E4165A088A003C1F08 /* Debug */,
@@ -272,7 +273,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		760370E6165A088A003C1F08 /* Build configuration list for PBXNativeTarget "DemonstrationApp" */ = {
+		760370E6165A088A003C1F08 /* Build configuration list for PBXNativeTarget "iOSTableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				760370E7165A088A003C1F08 /* Debug */,
