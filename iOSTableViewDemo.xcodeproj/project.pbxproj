@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76013CF4165DBE0D00754942 /* SimpleDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76013CF3165DBE0D00754942 /* SimpleDemoViewController.xib */; };
 		760370CD165A088A003C1F08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760370CC165A088A003C1F08 /* UIKit.framework */; };
 		760370CF165A088A003C1F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760370CE165A088A003C1F08 /* Foundation.framework */; };
 		760370D1165A088A003C1F08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760370D0165A088A003C1F08 /* CoreGraphics.framework */; };
@@ -14,11 +15,11 @@
 		760370D9165A088A003C1F08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 760370D8165A088A003C1F08 /* main.m */; };
 		760370DD165A088A003C1F08 /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 760370DC165A088A003C1F08 /* DemoAppDelegate.m */; };
 		760370E0165A088A003C1F08 /* SimpleDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760370DF165A088A003C1F08 /* SimpleDemoViewController.m */; };
-		760370E3165A088A003C1F08 /* SimpleDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760370E1165A088A003C1F08 /* SimpleDemoViewController.xib */; };
 		760370EE165AC359003C1F08 /* ListObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 760370ED165AC359003C1F08 /* ListObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76013CF3165DBE0D00754942 /* SimpleDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleDemoViewController.xib; sourceTree = "<group>"; };
 		760370C8165A088A003C1F08 /* iOSTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		760370CC165A088A003C1F08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		760370CE165A088A003C1F08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,7 +32,6 @@
 		760370DC165A088A003C1F08 /* DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
 		760370DE165A088A003C1F08 /* SimpleDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleDemoViewController.h; sourceTree = "<group>"; };
 		760370DF165A088A003C1F08 /* SimpleDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDemoViewController.m; sourceTree = "<group>"; };
-		760370E2165A088A003C1F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpleDemoViewController.xib; sourceTree = "<group>"; };
 		760370EC165AC359003C1F08 /* ListObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListObject.h; sourceTree = "<group>"; };
 		760370ED165AC359003C1F08 /* ListObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,9 +55,9 @@
 			children = (
 				760370DE165A088A003C1F08 /* SimpleDemoViewController.h */,
 				760370DF165A088A003C1F08 /* SimpleDemoViewController.m */,
-				760370E1165A088A003C1F08 /* SimpleDemoViewController.xib */,
+				76013CF3165DBE0D00754942 /* SimpleDemoViewController.xib */,
 			);
-			name = SimpleDemo;
+			path = SimpleDemo;
 			sourceTree = "<group>";
 		};
 		760370BD165A088A003C1F08 = {
@@ -163,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				760370D7165A088A003C1F08 /* InfoPlist.strings in Resources */,
-				760370E3165A088A003C1F08 /* SimpleDemoViewController.xib in Resources */,
+				76013CF4165DBE0D00754942 /* SimpleDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,14 +190,6 @@
 				760370D6165A088A003C1F08 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		760370E1165A088A003C1F08 /* SimpleDemoViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				760370E2165A088A003C1F08 /* en */,
-			);
-			name = SimpleDemoViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

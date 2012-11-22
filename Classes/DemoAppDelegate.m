@@ -27,7 +27,7 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     
-    NSInteger demoToRun = 2;
+    NSInteger demoToRun = 1;
     
     switch (demoToRun) {
         case 1:
